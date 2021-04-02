@@ -13,6 +13,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
@@ -89,6 +90,7 @@ public class FootBallGoals {
 			
 			System.out.println("Team With Minimum For vs Against goals --> "+ teamWithMinDifference.getKey());
 			Reporter.log("Team With Minimum For vs Against goals --> "+ teamWithMinDifference.getKey());
+			Assert.assertEquals(true, true,"Team With Minimum For vs Against goals --> "+ teamWithMinDifference.getKey());
 			
 			reader.close();
 		} catch (IOException e) {
