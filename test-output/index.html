@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SDET_Test" class="navigator-link">
+              <span class="suite-name border-failed">SDET_Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SDET_Test" class="navigator-link ">
+                    <span>C:\Users\SathishK\eclipse-workspace\SDET_Test\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SDET_Test" class="navigator-link ">
+                    <span class="test-stats">13 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SDET_Test" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SDET_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SDET_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SDET_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SDET_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">13 methods, 6 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SDET_Test" class="hide-methods failed suite-SDET_Test"> (hide)</a> <!-- hide-methods failed suite-SDET_Test -->
+                      <a href="#" panel-name="suite-SDET_Test" class="show-methods failed suite-SDET_Test"> (show)</a> <!-- show-methods failed suite-SDET_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-SDET_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SDET_Test" title="com.hcl.test.AreaOfTriangle" class="method navigator-link" hash-for-method="areaOfTriangle_HB(0.0, 15.0)">areaOfTriangle_HB(0.0, 15.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SDET_Test" title="com.hcl.test.AreaOfTriangle" class="method navigator-link" hash-for-method="areaOfTriangle_HB">areaOfTriangle_HB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SDET_Test" title="com.hcl.test.AreaOfTriangle" class="method navigator-link" hash-for-method="areaOfTriangle_Sides(0.0, 25.0, 22.0)">areaOfTriangle_Sides(0.0, 25.0, 22.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SDET_Test" title="com.hcl.test.AreaOfTriangle" class="method navigator-link" hash-for-method="areaOfTriangle_Sides">areaOfTriangle_Sides</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SDET_Test" title="com.hcl.test.AreaOfTriangle" class="method navigator-link" hash-for-method="areaOfTriangle_Sides(1.0, 2.0, 3.0)">areaOfTriangle_Sides(1.0, 2.0, 3.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SDET_Test" title="com.hcl.test.PrintNumbers" class="method navigator-link" hash-for-method="printNumbersRange(10ABC)">printNumbersRange(10ABC)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-SDET_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SDET_Test" class="hide-methods passed suite-SDET_Test"> (hide)</a> <!-- hide-methods passed suite-SDET_Test -->
+                      <a href="#" panel-name="suite-SDET_Test" class="show-methods passed suite-SDET_Test"> (show)</a> <!-- show-methods passed suite-SDET_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-SDET_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SDET_Test" title="com.hcl.test.AreaOfTriangle" class="method navigator-link" hash-for-method="areaOfTriangle_HB(10.0, 15.0)">areaOfTriangle_HB(10.0, 15.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SDET_Test" title="com.hcl.test.AreaOfTriangle" class="method navigator-link" hash-for-method="areaOfTriangle_HB(100.6, 25.98)">areaOfTriangle_HB(100.6, 25.98)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SDET_Test" title="com.hcl.test.AreaOfTriangle" class="method navigator-link" hash-for-method="areaOfTriangle_Sides(20.0, 25.0, 22.0)">areaOfTriangle_Sides(20.0, 25.0, 22.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SDET_Test" title="com.hcl.test.AreaOfTriangle" class="method navigator-link" hash-for-method="areaOfTriangle_Sides(40.2, 30.25, 20.22)">areaOfTriangle_Sides(40.2, 30.25, 20.22)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SDET_Test" title="com.hcl.test.FootBallGoals" class="method navigator-link" hash-for-method="goals">goals</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SDET_Test" title="com.hcl.test.PrintNumbers" class="method navigator-link" hash-for-method="printNumbersRange(10)">printNumbersRange(10)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SDET_Test" title="com.hcl.test.BoardOfDirector" class="method navigator-link" hash-for-method="validate_BD(Shiv Nadar)">validate_BD(Shiv Nadar)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SDET_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SDET_Test" class="panel SDET_Test">
+          <div class="suite-SDET_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.hcl.test.AreaOfTriangle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="areaOfTriangle_HB(0.0, 15.0)">
+                  </a> <!-- areaOfTriangle_HB(0.0, 15.0) -->
+                  <span class="method-name">areaOfTriangle_HB</span>
+                  <span class="parameters">(0.0, 15.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Please enter the valid Height and Breadth
+	at com.hcl.test.AreaOfTriangle.areaOfTriangle_HB(AreaOfTriangle.java:39)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="areaOfTriangle_HB">
+                  </a> <!-- areaOfTriangle_HB -->
+                  <span class="method-name">areaOfTriangle_HB</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Conversion issue on parameter: Breadth
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NumberFormatException: For input string: &quot;16XYZ&quot;
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:549)
+	at java.base/java.lang.Double.valueOf(Double.java:512)
+	... 14 more
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="areaOfTriangle_Sides(0.0, 25.0, 22.0)">
+                  </a> <!-- areaOfTriangle_Sides(0.0, 25.0, 22.0) -->
+                  <span class="method-name">areaOfTriangle_Sides</span>
+                  <span class="parameters">(0.0, 25.0, 22.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Argument Sides are not valid!!
+	at com.hcl.test.AreaOfTriangle.areaOfTriangle_Sides(AreaOfTriangle.java:86)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="areaOfTriangle_Sides">
+                  </a> <!-- areaOfTriangle_Sides -->
+                  <span class="method-name">areaOfTriangle_Sides</span>
+                  <div class="stack-trace">org.testng.TestNGException: 
+Conversion issue on parameter: Side2
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NumberFormatException: For input string: &quot;89AZDDB&quot;
+	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+	at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.base/java.lang.Double.parseDouble(Double.java:549)
+	at java.base/java.lang.Double.valueOf(Double.java:512)
+	... 14 more
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="areaOfTriangle_Sides(1.0, 2.0, 3.0)">
+                  </a> <!-- areaOfTriangle_Sides(1.0, 2.0, 3.0) -->
+                  <span class="method-name">areaOfTriangle_Sides</span>
+                  <span class="parameters">(1.0, 2.0, 3.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Triangle is not valid
+	at com.hcl.test.AreaOfTriangle.areaOfTriangle_Sides(AreaOfTriangle.java:80)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SDET_Test-class-failed -->
+          <div class="suite-SDET_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.hcl.test.PrintNumbers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printNumbersRange(10ABC)">
+                  </a> <!-- printNumbersRange(10ABC) -->
+                  <span class="method-name">printNumbersRange</span>
+                  <span class="parameters">(10ABC)</span>
+                  <div class="stack-trace">java.lang.AssertionError: Entered Parameter is not valid!!
+	at com.hcl.test.PrintNumbers.printNumbersRange(PrintNumbers.java:51)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SDET_Test-class-failed -->
+          <div class="suite-SDET_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hcl.test.AreaOfTriangle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="areaOfTriangle_HB(10.0, 15.0)">
+                  </a> <!-- areaOfTriangle_HB(10.0, 15.0) -->
+                  <span class="method-name">areaOfTriangle_HB</span>
+                  <span class="parameters">(10.0, 15.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="areaOfTriangle_HB(100.6, 25.98)">
+                  </a> <!-- areaOfTriangle_HB(100.6, 25.98) -->
+                  <span class="method-name">areaOfTriangle_HB</span>
+                  <span class="parameters">(100.6, 25.98)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="areaOfTriangle_Sides(20.0, 25.0, 22.0)">
+                  </a> <!-- areaOfTriangle_Sides(20.0, 25.0, 22.0) -->
+                  <span class="method-name">areaOfTriangle_Sides</span>
+                  <span class="parameters">(20.0, 25.0, 22.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="areaOfTriangle_Sides(40.2, 30.25, 20.22)">
+                  </a> <!-- areaOfTriangle_Sides(40.2, 30.25, 20.22) -->
+                  <span class="method-name">areaOfTriangle_Sides</span>
+                  <span class="parameters">(40.2, 30.25, 20.22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SDET_Test-class-passed -->
+          <div class="suite-SDET_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hcl.test.FootBallGoals</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="goals">
+                  </a> <!-- goals -->
+                  <span class="method-name">goals</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SDET_Test-class-passed -->
+          <div class="suite-SDET_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hcl.test.BoardOfDirector</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validate_BD(Shiv Nadar)">
+                  </a> <!-- validate_BD(Shiv Nadar) -->
+                  <span class="method-name">validate_BD</span>
+                  <span class="parameters">(Shiv Nadar)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SDET_Test-class-passed -->
+          <div class="suite-SDET_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hcl.test.PrintNumbers</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="printNumbersRange(10)">
+                  </a> <!-- printNumbersRange(10) -->
+                  <span class="method-name">printNumbersRange</span>
+                  <span class="parameters">(10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SDET_Test-class-passed -->
+        </div> <!-- panel SDET_Test -->
+        <div panel-name="test-xml-SDET_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\SathishK\eclipse-workspace\SDET_Test\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;SDET_Test&quot;&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;PrintNumbers_Positive&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;NumbersRange&quot; value=&quot;10&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hcl.test.PrintNumbers&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PrintNumbers_Positive --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;PrintNumbers_Negative&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;NumbersRange&quot; value=&quot;10ABC&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hcl.test.PrintNumbers&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PrintNumbers_Negative --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;AreaofTriangle_HB_Positive1&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;Height&quot; value=&quot;10&quot;/&gt;
+    &lt;parameter name=&quot;Breadth&quot; value=&quot;15&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;area_HB&quot;/&gt;
+        &lt;exclude name=&quot;area_Sides&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hcl.test.AreaOfTriangle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AreaofTriangle_HB_Positive1 --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;AreaofTriangle_HB_Positive2&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;Height&quot; value=&quot;100.6&quot;/&gt;
+    &lt;parameter name=&quot;Breadth&quot; value=&quot;25.98&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;area_HB&quot;/&gt;
+        &lt;exclude name=&quot;area_Sides&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hcl.test.AreaOfTriangle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AreaofTriangle_HB_Positive2 --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;AreaofTriangle_HB_Negative1&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;Height&quot; value=&quot;0&quot;/&gt;
+    &lt;parameter name=&quot;Breadth&quot; value=&quot;15&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;area_HB&quot;/&gt;
+        &lt;exclude name=&quot;area_Sides&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hcl.test.AreaOfTriangle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AreaofTriangle_HB_Negative1 --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;AreaofTriangle_HB_Negative2&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;Height&quot; value=&quot;20&quot;/&gt;
+    &lt;parameter name=&quot;Breadth&quot; value=&quot;16XYZ&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;area_HB&quot;/&gt;
+        &lt;exclude name=&quot;area_Sides&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hcl.test.AreaOfTriangle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AreaofTriangle_HB_Negative2 --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;AreaofTriangle_Sides_Positive1&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;Side1&quot; value=&quot;20&quot;/&gt;
+    &lt;parameter name=&quot;Side2&quot; value=&quot;25&quot;/&gt;
+    &lt;parameter name=&quot;Side3&quot; value=&quot;22&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;area_Sides&quot;/&gt;
+        &lt;exclude name=&quot;area_HB&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hcl.test.AreaOfTriangle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AreaofTriangle_Sides_Positive1 --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;AreaofTriangle_Sides_Positive2&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;Side1&quot; value=&quot;40.20&quot;/&gt;
+    &lt;parameter name=&quot;Side2&quot; value=&quot;30.25&quot;/&gt;
+    &lt;parameter name=&quot;Side3&quot; value=&quot;20.22&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;area_Sides&quot;/&gt;
+        &lt;exclude name=&quot;area_HB&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hcl.test.AreaOfTriangle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AreaofTriangle_Sides_Positive2 --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;AreaofTriangle_Sides_Negetive1&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;Side1&quot; value=&quot;0&quot;/&gt;
+    &lt;parameter name=&quot;Side2&quot; value=&quot;25&quot;/&gt;
+    &lt;parameter name=&quot;Side3&quot; value=&quot;22&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;area_Sides&quot;/&gt;
+        &lt;exclude name=&quot;area_HB&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hcl.test.AreaOfTriangle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AreaofTriangle_Sides_Negetive1 --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;AreaofTriangle_Sides_Negetive2&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;Side1&quot; value=&quot;25&quot;/&gt;
+    &lt;parameter name=&quot;Side2&quot; value=&quot;89AZDDB&quot;/&gt;
+    &lt;parameter name=&quot;Side3&quot; value=&quot;22&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;area_Sides&quot;/&gt;
+        &lt;exclude name=&quot;area_HB&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hcl.test.AreaOfTriangle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AreaofTriangle_Sides_Negetive2 --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;AreaofTriangle_Sides_Negetive3&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;Side1&quot; value=&quot;1&quot;/&gt;
+    &lt;parameter name=&quot;Side2&quot; value=&quot;2&quot;/&gt;
+    &lt;parameter name=&quot;Side3&quot; value=&quot;3&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;area_Sides&quot;/&gt;
+        &lt;exclude name=&quot;area_HB&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hcl.test.AreaOfTriangle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AreaofTriangle_Sides_Negetive3 --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;Validate_BoardOfDirector&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;parameter name=&quot;Director_Name&quot; value=&quot;Shiv Nadar&quot;/&gt;
+    &lt;parameter name=&quot;DRIVER_LOCATION&quot; value=&quot;C:\\Users\\SathishK\\Downloads\\geckodriver.exe&quot;/&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://hcl.com/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hcl.test.BoardOfDirector&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validate_BoardOfDirector --&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;methods&quot; name=&quot;FootBallGoals&quot; group-by-instances=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hcl.test.FootBallGoals&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FootBallGoals --&gt;
+&lt;/suite&gt; &lt;!-- SDET_Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SDET_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SDET_Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">PrintNumbers_Positive (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PrintNumbers_Negative (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AreaofTriangle_HB_Positive1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AreaofTriangle_HB_Positive2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AreaofTriangle_HB_Negative1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AreaofTriangle_HB_Negative2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AreaofTriangle_Sides_Positive1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AreaofTriangle_Sides_Positive2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AreaofTriangle_Sides_Negetive1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AreaofTriangle_Sides_Negetive2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AreaofTriangle_Sides_Negetive3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validate_BoardOfDirector (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">FootBallGoals (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SDET_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SDET_Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">area_HB</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">areaOfTriangle_HB</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">area_Sides</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">areaOfTriangle_Sides</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SDET_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SDET_Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SDET_Test');
+function tableData_SDET_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(13);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'validate_BD')
+data.setCell(0, 2, 'com.hcl.test.BoardOfDirector')
+data.setCell(0, 3, 7215);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'printNumbersRange')
+data.setCell(1, 2, 'com.hcl.test.PrintNumbers')
+data.setCell(1, 3, 10);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'goals')
+data.setCell(2, 2, 'com.hcl.test.FootBallGoals')
+data.setCell(2, 3, 5);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'printNumbersRange')
+data.setCell(3, 2, 'com.hcl.test.PrintNumbers')
+data.setCell(3, 3, 4);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'areaOfTriangle_HB')
+data.setCell(4, 2, 'com.hcl.test.AreaOfTriangle')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'areaOfTriangle_HB')
+data.setCell(5, 2, 'com.hcl.test.AreaOfTriangle')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'areaOfTriangle_Sides')
+data.setCell(6, 2, 'com.hcl.test.AreaOfTriangle')
+data.setCell(6, 3, 2);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'areaOfTriangle_HB')
+data.setCell(7, 2, 'com.hcl.test.AreaOfTriangle')
+data.setCell(7, 3, 1);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'areaOfTriangle_Sides')
+data.setCell(8, 2, 'com.hcl.test.AreaOfTriangle')
+data.setCell(8, 3, 1);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'areaOfTriangle_Sides')
+data.setCell(9, 2, 'com.hcl.test.AreaOfTriangle')
+data.setCell(9, 3, 1);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'areaOfTriangle_Sides')
+data.setCell(10, 2, 'com.hcl.test.AreaOfTriangle')
+data.setCell(10, 3, 1);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'areaOfTriangle_HB')
+data.setCell(11, 2, 'com.hcl.test.AreaOfTriangle')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'areaOfTriangle_Sides')
+data.setCell(12, 2, 'com.hcl.test.AreaOfTriangle')
+data.setCell(12, 3, 0);
+window.suiteTableData['SDET_Test']= { tableData: data, tableDiv: 'times-div-SDET_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-SDET_Test">
+              </div> <!-- times-div-SDET_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SDET_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SDET_Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printNumbersRange(10)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Input Max Number Range --> 10</span>
+                <span class="reporter-method-output">Final Numbers String --> 1,2,3,4,5,6,7,8,9,10</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">printNumbersRange(10ABC)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Input Max Number Range --> 10ABC</span>
+                <span class="reporter-method-output">Entered Parameter is not valid!!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">areaOfTriangle_HB(10.0, 15.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">3 Sides of Triangle --> 10.0 , 15.0</span>
+                <span class="reporter-method-output">Triangle is valid!!</span>
+                <span class="reporter-method-output">Area of the Triangle --> 75.0</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">areaOfTriangle_HB(100.6, 25.98)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">3 Sides of Triangle --> 100.6 , 25.98</span>
+                <span class="reporter-method-output">Triangle is valid!!</span>
+                <span class="reporter-method-output">Area of the Triangle --> 1306.7939999999999</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">areaOfTriangle_HB(0.0, 15.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">3 Sides of Triangle --> 0.0 , 15.0</span>
+                <span class="reporter-method-output">Please enter the valid Height and Breadth</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">areaOfTriangle_Sides(20.0, 25.0, 22.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">3 Sides of Triangle --> 20.0 , 25.0 ,22.0</span>
+                <span class="reporter-method-output">Triangle Sides are greater than 0</span>
+                <span class="reporter-method-output">Triangle is valid!!</span>
+                <span class="reporter-method-output">Area of the Triangle --> 210.2556479621891</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">areaOfTriangle_Sides(40.2, 30.25, 20.22)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">3 Sides of Triangle --> 40.2 , 30.25 ,20.22</span>
+                <span class="reporter-method-output">Triangle Sides are greater than 0</span>
+                <span class="reporter-method-output">Triangle is valid!!</span>
+                <span class="reporter-method-output">Area of the Triangle --> 296.97937060438113</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">areaOfTriangle_Sides(0.0, 25.0, 22.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">3 Sides of Triangle --> 0.0 , 25.0 ,22.0</span>
+                <span class="reporter-method-output">Argument Sides are not valid!!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">areaOfTriangle_Sides(1.0, 2.0, 3.0)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">3 Sides of Triangle --> 1.0 , 2.0 ,3.0</span>
+                <span class="reporter-method-output">Triangle Sides are greater than 0</span>
+                <span class="reporter-method-output">Triangle is not valid</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validate_BD(Shiv Nadar)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Director Image Saved to the target\photos folder</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">goals</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Team With Minimum For vs Against goals --> Aston_Villa</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SDET_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">9 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.hcl.test.AreaOfTriangle</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">areaOfTriangle_Sides</span>
+                <br/>
+                <span class="ignored-method-name">areaOfTriangle_Sides</span>
+                <br/>
+                <span class="ignored-method-name">areaOfTriangle_Sides</span>
+                <br/>
+                <span class="ignored-method-name">areaOfTriangle_Sides</span>
+                <br/>
+                <span class="ignored-method-name">areaOfTriangle_HB</span>
+                <br/>
+                <span class="ignored-method-name">areaOfTriangle_HB</span>
+                <br/>
+                <span class="ignored-method-name">areaOfTriangle_HB</span>
+                <br/>
+                <span class="ignored-method-name">areaOfTriangle_HB</span>
+                <br/>
+                <span class="ignored-method-name">areaOfTriangle_HB</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SDET_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hcl.test.PrintNumbers</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">printNumbersRange(10)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">printNumbersRange(10ABC)</span>
+                <span class="method-start">102 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hcl.test.AreaOfTriangle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">areaOfTriangle_HB(10.0, 15.0)</span>
+                <span class="method-start">123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">areaOfTriangle_HB(100.6, 25.98)</span>
+                <span class="method-start">138 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">areaOfTriangle_HB(0.0, 15.0)</span>
+                <span class="method-start">149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">areaOfTriangle_Sides(20.0, 25.0, 22.0)</span>
+                <span class="method-start">182 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">areaOfTriangle_Sides(40.2, 30.25, 20.22)</span>
+                <span class="method-start">194 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">areaOfTriangle_Sides(0.0, 25.0, 22.0)</span>
+                <span class="method-start">205 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">areaOfTriangle_Sides(1.0, 2.0, 3.0)</span>
+                <span class="method-start">227 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hcl.test.BoardOfDirector</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(C:\\Users\\SathishK\\Downloads\\geckodriver.exe, https://hcl.com/)</span>
+                <span class="method-start">239 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">validate_BD(Shiv Nadar)</span>
+                <span class="method-start">10914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18130 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hcl.test.FootBallGoals</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">goals</span>
+                <span class="method-start">20644 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

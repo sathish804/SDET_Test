@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="9" total="22" passed="7" failed="6" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Input Max Number Range --> 10]]>
+    </line>
+    <line>
+      <![CDATA[Final Numbers String --> 1,2,3,4,5,6,7,8,9,10]]>
+    </line>
+    <line>
+      <![CDATA[Input Max Number Range --> 10ABC]]>
+    </line>
+    <line>
+      <![CDATA[Entered Parameter is not valid!!]]>
+    </line>
+    <line>
+      <![CDATA[3 Sides of Triangle --> 10.0 , 15.0]]>
+    </line>
+    <line>
+      <![CDATA[Triangle is valid!!]]>
+    </line>
+    <line>
+      <![CDATA[Area of the Triangle --> 75.0]]>
+    </line>
+    <line>
+      <![CDATA[3 Sides of Triangle --> 100.6 , 25.98]]>
+    </line>
+    <line>
+      <![CDATA[Triangle is valid!!]]>
+    </line>
+    <line>
+      <![CDATA[Area of the Triangle --> 1306.7939999999999]]>
+    </line>
+    <line>
+      <![CDATA[3 Sides of Triangle --> 0.0 , 15.0]]>
+    </line>
+    <line>
+      <![CDATA[Please enter the valid Height and Breadth]]>
+    </line>
+    <line>
+      <![CDATA[3 Sides of Triangle --> 20.0 , 25.0 ,22.0]]>
+    </line>
+    <line>
+      <![CDATA[Triangle Sides are greater than 0]]>
+    </line>
+    <line>
+      <![CDATA[Triangle is valid!!]]>
+    </line>
+    <line>
+      <![CDATA[Area of the Triangle --> 210.2556479621891]]>
+    </line>
+    <line>
+      <![CDATA[3 Sides of Triangle --> 40.2 , 30.25 ,20.22]]>
+    </line>
+    <line>
+      <![CDATA[Triangle Sides are greater than 0]]>
+    </line>
+    <line>
+      <![CDATA[Triangle is valid!!]]>
+    </line>
+    <line>
+      <![CDATA[Area of the Triangle --> 296.97937060438113]]>
+    </line>
+    <line>
+      <![CDATA[3 Sides of Triangle --> 0.0 , 25.0 ,22.0]]>
+    </line>
+    <line>
+      <![CDATA[Argument Sides are not valid!!]]>
+    </line>
+    <line>
+      <![CDATA[3 Sides of Triangle --> 1.0 , 2.0 ,3.0]]>
+    </line>
+    <line>
+      <![CDATA[Triangle Sides are greater than 0]]>
+    </line>
+    <line>
+      <![CDATA[Triangle is not valid]]>
+    </line>
+    <line>
+      <![CDATA[Director Image Saved to the target\photos folder]]>
+    </line>
+    <line>
+      <![CDATA[Team With Minimum For vs Against goals --> Aston_Villa]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-04-02T23:02:00 CEST" name="SDET_Test" finished-at="2021-04-02T23:02:20 CEST" duration-ms="20690">
+    <groups>
+      <group name="area_Sides">
+        <method signature="AreaOfTriangle.areaOfTriangle_Sides(double, double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@503d687a]" name="areaOfTriangle_Sides" class="com.hcl.test.AreaOfTriangle"/>
+        <method signature="AreaOfTriangle.areaOfTriangle_Sides(double, double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@1f97cf0d]" name="areaOfTriangle_Sides" class="com.hcl.test.AreaOfTriangle"/>
+        <method signature="AreaOfTriangle.areaOfTriangle_Sides(double, double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@2e222612]" name="areaOfTriangle_Sides" class="com.hcl.test.AreaOfTriangle"/>
+        <method signature="AreaOfTriangle.areaOfTriangle_Sides(double, double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@10959ece]" name="areaOfTriangle_Sides" class="com.hcl.test.AreaOfTriangle"/>
+        <method signature="AreaOfTriangle.areaOfTriangle_Sides(double, double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@55536d9e]" name="areaOfTriangle_Sides" class="com.hcl.test.AreaOfTriangle"/>
+      </group> <!-- area_Sides -->
+      <group name="area_HB">
+        <method signature="AreaOfTriangle.areaOfTriangle_HB(double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@4ef37659]" name="areaOfTriangle_HB" class="com.hcl.test.AreaOfTriangle"/>
+        <method signature="AreaOfTriangle.areaOfTriangle_HB(double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@5136d012]" name="areaOfTriangle_HB" class="com.hcl.test.AreaOfTriangle"/>
+        <method signature="AreaOfTriangle.areaOfTriangle_HB(double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@355ce81c]" name="areaOfTriangle_HB" class="com.hcl.test.AreaOfTriangle"/>
+        <method signature="AreaOfTriangle.areaOfTriangle_HB(double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@366647c2]" name="areaOfTriangle_HB" class="com.hcl.test.AreaOfTriangle"/>
+      </group> <!-- area_HB -->
+    </groups>
+    <test started-at="2021-04-02T23:02:00 CEST" name="PrintNumbers_Positive" finished-at="2021-04-02T23:02:00 CEST" duration-ms="53">
+      <class name="com.hcl.test.PrintNumbers">
+        <test-method signature="printNumbersRange(java.lang.String)[pri:0, instance:com.hcl.test.PrintNumbers@7c83dc97]" started-at="2021-04-02T23:02:00 CEST" name="printNumbersRange" finished-at="2021-04-02T23:02:00 CEST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Input Max Number Range --> 10]]>
+            </line>
+            <line>
+              <![CDATA[Final Numbers String --> 1,2,3,4,5,6,7,8,9,10]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printNumbersRange -->
+      </class> <!-- com.hcl.test.PrintNumbers -->
+    </test> <!-- PrintNumbers_Positive -->
+    <test started-at="2021-04-02T23:02:00 CEST" name="PrintNumbers_Negative" finished-at="2021-04-02T23:02:00 CEST" duration-ms="9">
+      <class name="com.hcl.test.PrintNumbers">
+        <test-method signature="printNumbersRange(java.lang.String)[pri:0, instance:com.hcl.test.PrintNumbers@76f2bbc1]" started-at="2021-04-02T23:02:00 CEST" name="printNumbersRange" finished-at="2021-04-02T23:02:00 CEST" duration-ms="4" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10ABC]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Entered Parameter is not valid!!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Entered Parameter is not valid!!
+at org.testng.Assert.fail(Assert.java:99)
+at com.hcl.test.PrintNumbers.printNumbersRange(PrintNumbers.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[Input Max Number Range --> 10ABC]]>
+            </line>
+            <line>
+              <![CDATA[Entered Parameter is not valid!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- printNumbersRange -->
+      </class> <!-- com.hcl.test.PrintNumbers -->
+    </test> <!-- PrintNumbers_Negative -->
+    <test started-at="2021-04-02T23:02:00 CEST" name="AreaofTriangle_HB_Positive1" finished-at="2021-04-02T23:02:00 CEST" duration-ms="8">
+      <class name="com.hcl.test.AreaOfTriangle">
+        <test-method signature="areaOfTriangle_HB(double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@4ef37659]" started-at="2021-04-02T23:02:00 CEST" name="areaOfTriangle_HB" finished-at="2021-04-02T23:02:00 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[3 Sides of Triangle --> 10.0 , 15.0]]>
+            </line>
+            <line>
+              <![CDATA[Triangle is valid!!]]>
+            </line>
+            <line>
+              <![CDATA[Area of the Triangle --> 75.0]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- areaOfTriangle_HB -->
+      </class> <!-- com.hcl.test.AreaOfTriangle -->
+    </test> <!-- AreaofTriangle_HB_Positive1 -->
+    <test started-at="2021-04-02T23:02:00 CEST" name="AreaofTriangle_HB_Positive2" finished-at="2021-04-02T23:02:00 CEST" duration-ms="5">
+      <class name="com.hcl.test.AreaOfTriangle">
+        <test-method signature="areaOfTriangle_HB(double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@5136d012]" started-at="2021-04-02T23:02:00 CEST" name="areaOfTriangle_HB" finished-at="2021-04-02T23:02:00 CEST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[100.6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.98]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[3 Sides of Triangle --> 100.6 , 25.98]]>
+            </line>
+            <line>
+              <![CDATA[Triangle is valid!!]]>
+            </line>
+            <line>
+              <![CDATA[Area of the Triangle --> 1306.7939999999999]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- areaOfTriangle_HB -->
+      </class> <!-- com.hcl.test.AreaOfTriangle -->
+    </test> <!-- AreaofTriangle_HB_Positive2 -->
+    <test started-at="2021-04-02T23:02:00 CEST" name="AreaofTriangle_HB_Negative1" finished-at="2021-04-02T23:02:00 CEST" duration-ms="4">
+      <class name="com.hcl.test.AreaOfTriangle">
+        <test-method signature="areaOfTriangle_HB(double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@355ce81c]" started-at="2021-04-02T23:02:00 CEST" name="areaOfTriangle_HB" finished-at="2021-04-02T23:02:00 CEST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Please enter the valid Height and Breadth]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Please enter the valid Height and Breadth
+at org.testng.Assert.fail(Assert.java:99)
+at com.hcl.test.AreaOfTriangle.areaOfTriangle_HB(AreaOfTriangle.java:39)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[3 Sides of Triangle --> 0.0 , 15.0]]>
+            </line>
+            <line>
+              <![CDATA[Please enter the valid Height and Breadth]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- areaOfTriangle_HB -->
+      </class> <!-- com.hcl.test.AreaOfTriangle -->
+    </test> <!-- AreaofTriangle_HB_Negative1 -->
+    <test started-at="2021-04-02T23:02:00 CEST" name="AreaofTriangle_HB_Negative2" finished-at="2021-04-02T23:02:00 CEST" duration-ms="11">
+      <class name="com.hcl.test.AreaOfTriangle">
+        <test-method signature="areaOfTriangle_HB(double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@366647c2]" started-at="2021-04-02T23:02:00 CEST" name="areaOfTriangle_HB" finished-at="2021-04-02T23:02:00 CEST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Conversion issue on parameter: Breadth]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Conversion issue on parameter: Breadth
+at org.testng.internal.Parameters.convertType(Parameters.java:531)
+at org.testng.internal.Parameters.createParams(Parameters.java:271)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NumberFormatException: For input string: "16XYZ"
+at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+at java.base/java.lang.Double.parseDouble(Double.java:549)
+at java.base/java.lang.Double.valueOf(Double.java:512)
+at org.testng.internal.Parameters.convertType(Parameters.java:516)
+... 14 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areaOfTriangle_HB -->
+      </class> <!-- com.hcl.test.AreaOfTriangle -->
+    </test> <!-- AreaofTriangle_HB_Negative2 -->
+    <test started-at="2021-04-02T23:02:00 CEST" name="AreaofTriangle_Sides_Positive1" finished-at="2021-04-02T23:02:00 CEST" duration-ms="4">
+      <class name="com.hcl.test.AreaOfTriangle">
+        <test-method signature="areaOfTriangle_Sides(double, double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@503d687a]" started-at="2021-04-02T23:02:00 CEST" name="areaOfTriangle_Sides" finished-at="2021-04-02T23:02:00 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[3 Sides of Triangle --> 20.0 , 25.0 ,22.0]]>
+            </line>
+            <line>
+              <![CDATA[Triangle Sides are greater than 0]]>
+            </line>
+            <line>
+              <![CDATA[Triangle is valid!!]]>
+            </line>
+            <line>
+              <![CDATA[Area of the Triangle --> 210.2556479621891]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- areaOfTriangle_Sides -->
+      </class> <!-- com.hcl.test.AreaOfTriangle -->
+    </test> <!-- AreaofTriangle_Sides_Positive1 -->
+    <test started-at="2021-04-02T23:02:00 CEST" name="AreaofTriangle_Sides_Positive2" finished-at="2021-04-02T23:02:00 CEST" duration-ms="5">
+      <class name="com.hcl.test.AreaOfTriangle">
+        <test-method signature="areaOfTriangle_Sides(double, double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@1f97cf0d]" started-at="2021-04-02T23:02:00 CEST" name="areaOfTriangle_Sides" finished-at="2021-04-02T23:02:00 CEST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[40.2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[30.25]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20.22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[3 Sides of Triangle --> 40.2 , 30.25 ,20.22]]>
+            </line>
+            <line>
+              <![CDATA[Triangle Sides are greater than 0]]>
+            </line>
+            <line>
+              <![CDATA[Triangle is valid!!]]>
+            </line>
+            <line>
+              <![CDATA[Area of the Triangle --> 296.97937060438113]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- areaOfTriangle_Sides -->
+      </class> <!-- com.hcl.test.AreaOfTriangle -->
+    </test> <!-- AreaofTriangle_Sides_Positive2 -->
+    <test started-at="2021-04-02T23:02:00 CEST" name="AreaofTriangle_Sides_Negetive1" finished-at="2021-04-02T23:02:00 CEST" duration-ms="6">
+      <class name="com.hcl.test.AreaOfTriangle">
+        <test-method signature="areaOfTriangle_Sides(double, double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@2e222612]" started-at="2021-04-02T23:02:00 CEST" name="areaOfTriangle_Sides" finished-at="2021-04-02T23:02:00 CEST" duration-ms="2" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[22.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Argument Sides are not valid!!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Argument Sides are not valid!!
+at org.testng.Assert.fail(Assert.java:99)
+at com.hcl.test.AreaOfTriangle.areaOfTriangle_Sides(AreaOfTriangle.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[3 Sides of Triangle --> 0.0 , 25.0 ,22.0]]>
+            </line>
+            <line>
+              <![CDATA[Argument Sides are not valid!!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- areaOfTriangle_Sides -->
+      </class> <!-- com.hcl.test.AreaOfTriangle -->
+    </test> <!-- AreaofTriangle_Sides_Negetive1 -->
+    <test started-at="2021-04-02T23:02:00 CEST" name="AreaofTriangle_Sides_Negetive2" finished-at="2021-04-02T23:02:00 CEST" duration-ms="3">
+      <class name="com.hcl.test.AreaOfTriangle">
+        <test-method signature="areaOfTriangle_Sides(double, double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@10959ece]" started-at="2021-04-02T23:02:00 CEST" name="areaOfTriangle_Sides" finished-at="2021-04-02T23:02:00 CEST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Conversion issue on parameter: Side2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Conversion issue on parameter: Side2
+at org.testng.internal.Parameters.convertType(Parameters.java:531)
+at org.testng.internal.Parameters.createParams(Parameters.java:271)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.NumberFormatException: For input string: "89AZDDB"
+at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
+at java.base/jdk.internal.math.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+at java.base/java.lang.Double.parseDouble(Double.java:549)
+at java.base/java.lang.Double.valueOf(Double.java:512)
+at org.testng.internal.Parameters.convertType(Parameters.java:516)
+... 14 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- areaOfTriangle_Sides -->
+      </class> <!-- com.hcl.test.AreaOfTriangle -->
+    </test> <!-- AreaofTriangle_Sides_Negetive2 -->
+    <test started-at="2021-04-02T23:02:00 CEST" name="AreaofTriangle_Sides_Negetive3" finished-at="2021-04-02T23:02:00 CEST" duration-ms="4">
+      <class name="com.hcl.test.AreaOfTriangle">
+        <test-method signature="areaOfTriangle_Sides(double, double, double)[pri:0, instance:com.hcl.test.AreaOfTriangle@55536d9e]" started-at="2021-04-02T23:02:00 CEST" name="areaOfTriangle_Sides" finished-at="2021-04-02T23:02:00 CEST" duration-ms="1" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Triangle is not valid]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Triangle is not valid
+at org.testng.Assert.fail(Assert.java:99)
+at com.hcl.test.AreaOfTriangle.areaOfTriangle_Sides(AreaOfTriangle.java:80)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[3 Sides of Triangle --> 1.0 , 2.0 ,3.0]]>
+            </line>
+            <line>
+              <![CDATA[Triangle Sides are greater than 0]]>
+            </line>
+            <line>
+              <![CDATA[Triangle is not valid]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- areaOfTriangle_Sides -->
+      </class> <!-- com.hcl.test.AreaOfTriangle -->
+    </test> <!-- AreaofTriangle_Sides_Negetive3 -->
+    <test started-at="2021-04-02T23:02:00 CEST" name="Validate_BoardOfDirector" finished-at="2021-04-02T23:02:20 CEST" duration-ms="20391">
+      <class name="com.hcl.test.BoardOfDirector">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.hcl.test.BoardOfDirector@4e096385]" started-at="2021-04-02T23:02:00 CEST" name="setUp" finished-at="2021-04-02T23:02:11 CEST" duration-ms="10674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C:\\Users\\SathishK\\Downloads\\geckodriver.exe]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://hcl.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validate_BD(java.lang.String)[pri:0, instance:com.hcl.test.BoardOfDirector@4e096385]" started-at="2021-04-02T23:02:11 CEST" name="validate_BD" finished-at="2021-04-02T23:02:18 CEST" duration-ms="7215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shiv Nadar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Director Image Saved to the target\photos folder]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validate_BD -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.hcl.test.BoardOfDirector@4e096385]" started-at="2021-04-02T23:02:18 CEST" name="tearDown" finished-at="2021-04-02T23:02:20 CEST" duration-ms="2499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hcl.test.BoardOfDirector -->
+    </test> <!-- Validate_BoardOfDirector -->
+    <test started-at="2021-04-02T23:02:20 CEST" name="FootBallGoals" finished-at="2021-04-02T23:02:20 CEST" duration-ms="9">
+      <class name="com.hcl.test.FootBallGoals">
+        <test-method signature="goals()[pri:0, instance:com.hcl.test.FootBallGoals@306f16f3]" started-at="2021-04-02T23:02:20 CEST" name="goals" finished-at="2021-04-02T23:02:20 CEST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Team With Minimum For vs Against goals --> Aston_Villa]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- goals -->
+      </class> <!-- com.hcl.test.FootBallGoals -->
+    </test> <!-- FootBallGoals -->
+  </suite> <!-- SDET_Test -->
+</testng-results>

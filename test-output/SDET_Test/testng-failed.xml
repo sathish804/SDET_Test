@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="methods" name="Failed suite [SDET_Test]">
+  <test thread-count="4" parallel="methods" name="PrintNumbers_Negative(failed)">
+    <parameter name="NumbersRange" value="10ABC"/>
+    <classes>
+      <class name="com.hcl.test.PrintNumbers">
+        <methods>
+          <include name="printNumbersRange" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.hcl.test.PrintNumbers -->
+    </classes>
+  </test> <!-- PrintNumbers_Negative(failed) -->
+  <test thread-count="4" parallel="methods" name="AreaofTriangle_HB_Negative1(failed)">
+    <parameter name="Height" value="0"/>
+    <parameter name="Breadth" value="15"/>
+    <groups>
+      <run>
+        <include name="area_HB"/>
+        <exclude name="area_Sides"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.hcl.test.AreaOfTriangle">
+        <methods>
+          <include name="areaOfTriangle_HB" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.hcl.test.AreaOfTriangle -->
+    </classes>
+  </test> <!-- AreaofTriangle_HB_Negative1(failed) -->
+  <test thread-count="4" parallel="methods" name="AreaofTriangle_HB_Negative2(failed)">
+    <parameter name="Height" value="20"/>
+    <parameter name="Breadth" value="16XYZ"/>
+    <groups>
+      <run>
+        <include name="area_HB"/>
+        <exclude name="area_Sides"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.hcl.test.AreaOfTriangle">
+        <methods>
+          <include name="areaOfTriangle_HB"/>
+        </methods>
+      </class> <!-- com.hcl.test.AreaOfTriangle -->
+    </classes>
+  </test> <!-- AreaofTriangle_HB_Negative2(failed) -->
+  <test thread-count="4" parallel="methods" name="AreaofTriangle_Sides_Negetive1(failed)">
+    <parameter name="Side1" value="0"/>
+    <parameter name="Side2" value="25"/>
+    <parameter name="Side3" value="22"/>
+    <groups>
+      <run>
+        <include name="area_Sides"/>
+        <exclude name="area_HB"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.hcl.test.AreaOfTriangle">
+        <methods>
+          <include name="areaOfTriangle_Sides" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.hcl.test.AreaOfTriangle -->
+    </classes>
+  </test> <!-- AreaofTriangle_Sides_Negetive1(failed) -->
+  <test thread-count="4" parallel="methods" name="AreaofTriangle_Sides_Negetive2(failed)">
+    <parameter name="Side1" value="25"/>
+    <parameter name="Side2" value="89AZDDB"/>
+    <parameter name="Side3" value="22"/>
+    <groups>
+      <run>
+        <include name="area_Sides"/>
+        <exclude name="area_HB"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.hcl.test.AreaOfTriangle">
+        <methods>
+          <include name="areaOfTriangle_Sides"/>
+        </methods>
+      </class> <!-- com.hcl.test.AreaOfTriangle -->
+    </classes>
+  </test> <!-- AreaofTriangle_Sides_Negetive2(failed) -->
+  <test thread-count="4" parallel="methods" name="AreaofTriangle_Sides_Negetive3(failed)">
+    <parameter name="Side1" value="1"/>
+    <parameter name="Side2" value="2"/>
+    <parameter name="Side3" value="3"/>
+    <groups>
+      <run>
+        <include name="area_Sides"/>
+        <exclude name="area_HB"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.hcl.test.AreaOfTriangle">
+        <methods>
+          <include name="areaOfTriangle_Sides" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.hcl.test.AreaOfTriangle -->
+    </classes>
+  </test> <!-- AreaofTriangle_Sides_Negetive3(failed) -->
+</suite> <!-- Failed suite [SDET_Test] -->

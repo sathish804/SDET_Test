@@ -1,0 +1,185 @@
+<suite name="SDET_Test" parallel="methods" thread-count="4">
+
+<!-- Printing Numbers Tests -->
+	<test name="PrintNumbers_Positive" group-by-instances="true">
+		<parameter name="NumbersRange" value="10" />
+		<classes>
+			<class name="com.hcl.test.PrintNumbers" />
+		</classes>
+	</test>
+
+	<test name="PrintNumbers_Negative" group-by-instances="true">
+		<parameter name="NumbersRange" value="10ABC" />
+		<classes>
+			<class name="com.hcl.test.PrintNumbers" />
+		</classes>
+	</test>
+
+
+<!-- Area of Triangle Tests -->
+	<test name="AreaofTriangle_HB_Positive1" group-by-instances="true">
+		<groups>
+			<run>
+				<include name="area_HB" />
+				<exclude name="area_Sides" />
+			</run>
+		</groups>
+		<parameter name="Height" value="10" />
+		<parameter name="Breadth" value="15" />
+		<classes>
+			<class name="com.hcl.test.AreaOfTriangle" />
+		</classes>
+	</test>
+
+	<test name="AreaofTriangle_HB_Positive2" group-by-instances="true">
+
+		<groups>
+			<run>
+				<include name="area_HB" />
+				<exclude name="area_Sides" />
+			</run>
+		</groups>
+		<parameter name="Height" value="100.6" />
+		<parameter name="Breadth" value="25.98" />
+		<classes>
+			<class name="com.hcl.test.AreaOfTriangle" />
+		</classes>
+	</test>
+
+	<test name="AreaofTriangle_HB_Negative1" group-by-instances="true">
+		<groups>
+			<run>
+				<include name="area_HB" />
+				<exclude name="area_Sides" />
+			</run>
+		</groups>
+		<parameter name="Height" value="0" />
+		<parameter name="Breadth" value="15" />
+		<classes>
+			<class name="com.hcl.test.AreaOfTriangle" />
+		</classes>
+	</test>
+
+	<test name="AreaofTriangle_HB_Negative2" group-by-instances="true">
+		<groups>
+			<run>
+				<include name="area_HB" />
+				<exclude name="area_Sides" />
+			</run>
+		</groups>
+		<parameter name="Height" value="20" />
+		<parameter name="Breadth" value="16XYZ" />
+		<classes>
+			<class name="com.hcl.test.AreaOfTriangle" />
+		</classes>
+	</test>
+
+	<test name="AreaofTriangle_Sides_Positive1"
+		group-by-instances="true">
+
+		<groups>
+			<run>
+				<exclude name="area_HB" />
+				<include name="area_Sides" />
+			</run>
+		</groups>
+		<parameter name="Side1" value="20" />
+		<parameter name="Side2" value="25" />
+		<parameter name="Side3" value="22" />
+		<classes>
+			<class name="com.hcl.test.AreaOfTriangle" />
+		</classes>
+	</test>
+
+	<test name="AreaofTriangle_Sides_Positive2"
+		group-by-instances="true">
+
+		<groups>
+			<run>
+				<exclude name="area_HB" />
+				<include name="area_Sides" />
+			</run>
+		</groups>
+		<parameter name="Side1" value="40.20" />
+		<parameter name="Side2" value="30.25" />
+		<parameter name="Side3" value="20.22" />
+		<classes>
+			<class name="com.hcl.test.AreaOfTriangle" />
+		</classes>
+	</test>
+
+	<test name="AreaofTriangle_Sides_Negetive1"
+		group-by-instances="true">
+
+		<groups>
+			<run>
+				<exclude name="area_HB" />
+				<include name="area_Sides" />
+			</run>
+		</groups>
+		<parameter name="Side1" value="0" />
+		<parameter name="Side2" value="25" />
+		<parameter name="Side3" value="22" />
+		<classes>
+			<class name="com.hcl.test.AreaOfTriangle" />
+		</classes>
+	</test>
+
+
+	<test name="AreaofTriangle_Sides_Negetive2"
+		group-by-instances="true">
+
+		<groups>
+			<run>
+				<exclude name="area_HB" />
+				<include name="area_Sides" />
+			</run>
+		</groups>
+		<parameter name="Side1" value="25" />
+		<parameter name="Side2" value="89AZDDB" />
+		<parameter name="Side3" value="22" />
+		<classes>
+			<class name="com.hcl.test.AreaOfTriangle" />
+		</classes>
+	</test>
+
+	<test name="AreaofTriangle_Sides_Negetive3"
+		group-by-instances="true">
+
+		<groups>
+			<run>
+				<exclude name="area_HB" />
+				<include name="area_Sides" />
+			</run>
+		</groups>
+		<parameter name="Side1" value="1" />
+		<parameter name="Side2" value="2" />
+		<parameter name="Side3" value="3" />
+		<classes>
+			<class name="com.hcl.test.AreaOfTriangle" />
+		</classes>
+	</test>
+
+
+<!-- Board Of Director validation Test -->
+	<test name="Validate_BoardOfDirector" group-by-instances="true">
+		<parameter name="DRIVER_LOCATION"
+			value="C:\\Users\\SathishK\\Downloads\\geckodriver.exe" />
+		<parameter name="URL" value="https://hcl.com/" />
+		<parameter name="Director_Name" value="Shiv Nadar" />
+
+		<classes>
+			<class name="com.hcl.test.BoardOfDirector" />
+		</classes>
+	</test>
+	
+	<!-- Team With Minimum For Vs Against GoalsTest -->
+	
+	<test name="FootBallGoals" group-by-instances="true">
+		<classes>
+			<class name="com.hcl.test.FootBallGoals" />
+		</classes>
+	</test>
+
+
+</suite>
